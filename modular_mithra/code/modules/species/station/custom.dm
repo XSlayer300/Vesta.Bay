@@ -25,6 +25,30 @@
 	a (hopefully) balanced genemodder. You will see the options to customize them on the Genemods tab once \
 	you select and set this species as your species, so please, look into here if you select this."
 
+	hunger_factor = 0
+	breath_type = null
+	oxy_mod = 0
+	breath_pressure = 16
+	breath_type = null
+	max_pressure_diff = 5000
+	cold_level_1 = -1
+	cold_level_2 = -1
+	cold_level_3 = -1
+	heat_level_1 = 10001
+	heat_level_2 = 10002
+	heat_level_3 = 10003
+	warning_low_pressure = -10
+	hazard_low_pressure = -20
+	body_temperature = 316
+
+	heat_discomfort_level = 10001
+	cold_discomfort_level = -1
+
+	has_organ = list(
+		BP_EYES = /obj/item/organ/internal/eyes/robot,
+		BP_LUNGS =    null
+		)
+
 	min_age = 18
 	max_age = 200
 	health_hud_intensity = 2
